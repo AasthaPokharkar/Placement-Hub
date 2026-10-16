@@ -1,0 +1,8 @@
+{
+  "name": "Placement Hub",
+  "description": "Truthful, evidence-backed campus placement portal connecting students, recruiters, and placement officers with verified skills and proctored assessment benchmarks.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

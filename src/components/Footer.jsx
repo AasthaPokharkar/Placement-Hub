@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { GraduationCap, ShieldCheck, FileCheck, CheckCircle } from 'lucide-react';
+import { GraduationCap, FileCheck, CheckCircle } from 'lucide-react';
 import { Github } from './Icons';
 
 export const Footer = () => {
@@ -40,8 +40,8 @@ export const Footer = () => {
             <ul className="space-y-2 text-xs">
               <li><Link to="/tpo" className="hover:text-white transition-colors">TPO Overview & Shortlisting</Link></li>
               <li><Link to="/batch-matching" className="hover:text-white transition-colors">Algorithmic Batch Matching</Link></li>
-              <li><a href="#audit" onClick={(e) => { e.preventDefault(); alert("Academic audit log: verified against Git commit trees and Registrar database."); }} className="hover:text-white transition-colors">Academic Audit Trail</a></li>
-              <li><a href="#export" onClick={(e) => { e.preventDefault(); alert("Recruiter verified pool active for campus placement cycle 2025-2026."); }} className="hover:text-white transition-colors">Recruiter Export (CSV/PDF)</a></li>
+              <li><Link to="/tpo#audit" className="hover:text-white transition-colors">Academic Audit Trail</Link></li>
+              <li><Link to="/tpo#export" className="hover:text-white transition-colors">Recruiter Export (CSV/PDF)</Link></li>
             </ul>
           </div>
 

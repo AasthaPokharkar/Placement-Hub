@@ -14,7 +14,6 @@ import {
   X,
   LogOut,
   LogIn,
-  CheckCircle2,
   Sparkles
 } from 'lucide-react';
 import { GitHubVerificationModal } from './GitHubVerificationModal';

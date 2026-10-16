@@ -3,19 +3,14 @@ import { useApp } from '../context/AppContext';
 import {
   Sparkles,
   CheckCircle2,
-  AlertTriangle,
-  FileCode2,
   RefreshCw,
   GitCommit,
-  GitPullRequest,
-  Check,
-  ShieldCheck,
-  ExternalLink
+  GitPullRequest
 } from 'lucide-react';
 import { Github } from './Icons';
 
 export const GitHubVerificationModal = ({ isOpen, onClose, onVerified }) => {
-  const { studentProfile, setStudentProfile } = useApp();
+  const { setStudentProfile } = useApp();
   const [repoInput, setRepoInput] = useState('https://github.com/aastha-pokharkar/campus-connect');
   const [isVerifying, setIsVerifying] = useState(false);
   const [verificationResult, setVerificationResult] = useState(null);

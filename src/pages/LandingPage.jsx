@@ -12,9 +12,7 @@ import {
   Award,
   AlertTriangle,
   Building2,
-  Users,
-  Sparkles,
-  GitPullRequest
+  Users
 } from 'lucide-react';
 import { Github } from '../components/Icons';
 import { useApp } from '../context/AppContext';
